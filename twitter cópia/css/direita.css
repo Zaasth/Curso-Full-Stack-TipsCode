@@ -1,0 +1,73 @@
+.direita aside{
+
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.direita{
+    display: flex;
+    flex-direction: column;
+    
+}
+.direita aside #pesquisa{
+    background-color: #273340;
+    border-style: none;
+    border-radius: 10rem;
+    width: 67%;
+    padding: 14px;
+    margin-top: 2%;
+    align-self: flex-start;
+    margin-left: 5%;
+    color: white;
+    
+    
+}
+.direita aside img{
+    width: 1.3%;
+    position: absolute;
+    top: 2.4%;
+    margin-left: 8%;
+    right: 29%;
+}
+::placeholder{
+    padding-left: 10%;
+    font-size: 16px;
+}
+::-webkit-search-cancel-button{
+    position: relative;
+    right: 20px;
+}
+.direita-feed{
+
+    width: 24vw;
+    height: 700px;
+    position: relative;
+    align-self: center;
+    right: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.direita section section{
+    border-style: none;
+    background-color: #252E38;
+    width: 100%;
+    height: 18vh;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+#final-section1{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.titulo{
+    font-size: 22px;
+    margin-top: 4%;
+    margin-left: 4%;
+}

@@ -1,0 +1,32 @@
+#div1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+}
+#div2{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    bottom: 300px;
+}
+#div3{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    right: 0px;
+    bottom: 300px;
+}
+#paidiv1{
+    background-color: grey;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    left: 30px;
+}

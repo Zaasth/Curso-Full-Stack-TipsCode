@@ -1,0 +1,20 @@
+
+/*======================= Sessão De TAGS =======================*/
+h1 { 
+    color: coral;
+}
+
+/*======================= Sessão De CLASSES =======================*/
+.biblia{
+    width: 20%;
+    background-color: aqua;
+}
+.cruz-Circulo{
+    width: 10%;
+    background-color: brown;
+}
+
+/*======================= Sessão De IDs =======================*/
+#Cabeçalho{
+    color: aqua;
+}

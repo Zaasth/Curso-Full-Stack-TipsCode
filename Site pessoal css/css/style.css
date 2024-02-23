@@ -1,0 +1,44 @@
+/*======================= Sessão De TAGS =======================*/
+body {
+    background-color: #1f4690;
+  }
+  hr {
+    background-color: #1f4690;
+    height: auto;
+    width: 10%;
+    border-width: 20px;
+    border-style: none;
+    border-top-style: dotted ;
+    border-color: #231955;
+  }
+  details{
+    background-color: aqua;
+    border-radius: 10px;
+  }
+
+  h1, h2, h3 {
+    color: #FFE5B4;
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: 40px;
+  }
+  /*======================= Sessão De IDs =======================*/
+  #well2 {
+    text-align:center;
+    padding: 0%;
+  }
+  #minhafoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-align: center; 
+  }
+  /*======================= Sessão De CLASSES =======================*/
+  .welllucas:hover{
+    color: aqua;
+  }
+/* {
+    color: #FFE5B4;
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: 10px;
+  } */

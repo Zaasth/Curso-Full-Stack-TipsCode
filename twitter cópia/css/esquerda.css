@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'chirp';
+    src: url('ChirpRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+li {
+    list-style-type: none;
+    margin-top: 10%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+  }
+  li h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  li :hover{
+    background-color: #2C3640;
+    border-radius: 10rem;
+    cursor: pointer;
+    border-style: none;
+
+  }
+  li p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3%;
+    
+
+  }
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'chirp', sans-serif
+}
+body{
+    background-color: #15202B;
+    
+}
+main{
+    
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+aside{
+    
+    font-size: 30px;
+    flex-basis: 3rem;
+    
+    flex-grow: 1;
+}
+.meio{
+    flex-grow: 1.4;
+    
+}
+.direita{
+    flex-grow: 1.3;
+}
+
+.esquerda aside{
+    
+    height: 20%;
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.esquerda aside p{
+    font-size: 20px;
+    
+}
+.esquerda aside h1{
+    font-size: 20px;
+    
+}
+.esquerda{
+    
+   
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+}
+.butão-esquerda{
+    background-color: #1A8CD8;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30rem;
+    border-style: none;
+    padding: 15px;
+    margin-top: 10%;
+    width: 90%;
+    margin-left: -5%;
+    cursor: pointer;
+}
+.logo{
+    width: 12%;
+    margin-top: 6%;
+    cursor: pointer;
+}
+.esquerda picture img{
+    width: 14%;
+    margin-top: 3%;
+}
+.esquerda picture{
+    display: flex;
+    flex-direction: column;
+    position: inline-block;
+    background-color: #1A8CD8;
+    
+}
+.img-esquerda{
+    cursor: pointer;
+}
+.img-esquerda{
+    width: 9%;
+    margin-right: 8%;
+    margin-top: -2%;
+}
