@@ -11,13 +11,32 @@
             margin: 0;
         }
         body{
-            margin: 10px;
+        
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 300px 1fr 1fr;
+            grid-template-rows: 100px 1fr 100px;
+            grid-template-areas: "cabecalho cabecalho ."
+            "navegacao conteudo ."
+            "rodape rodape ."
+            ;
         }
         .box {
             border: solid 5px rebeccapurple;
             font-size: 30px;
         }
-
+        main {
+            grid-area: conteudo;
+        }
+        header {
+            grid-area: cabecalho;
+        }
+        footer {
+            grid-area: rodape ;
+        }
+        nav {
+            grid-area:  navegacao ;
+        }
 
     </style>
 </head>
