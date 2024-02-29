@@ -1,0 +1,54 @@
+/* Google fontes */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*================== Sessão Tags ==================*/
+* {
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1,5;
+}
+/*================== Sessão Classes ==================*/
+.gatinho {
+    width: 60%;
+    padding-bottom: 1%;
+    margin-top: 5%;
+}
+.button_img {
+    width: auto;
+    height: 2rem;
+    padding: 0%;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    
+}
+.nav-item {
+    margin-left: 15%;
+}
+.nav-item :hover {
+    opacity: 70%;
+}
+/*================== Sessão Ids ==================*/
+#title {
+    background-color: #051d35;
+    color: white;
+}
+#header_menu {
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+#menuzin {
+    padding: 0 10% 35px 7%;
+    
+}
+#header_texto {
+    font-weight: 500;
+    line-height: 3.6rem;
+}
