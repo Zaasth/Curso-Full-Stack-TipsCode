@@ -4,22 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*================== Sessão Tags Globais ==================*/
-* {
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
 }
-h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1,5;
+body {
+    background-color: #051d35;
 }
-h2 {
-    font-family: "Montserrat-bold", sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-/*================== Sessão Classes ==================*/
-
 /*================== Header ==================*/
 .gatinho {
     width: 60%;
@@ -37,7 +30,13 @@ h2 {
     
 }
 .nav-item {
-    margin-left: 15%;
+    margin-left: 0%;
+}
+@media (max-width: 900px) {
+    .nav-item {
+        margin-left: 0%;
+        margin-top: 4%;
+    }
 }
 .nav-item:hover {
     opacity: 70%;
@@ -61,7 +60,6 @@ h2 {
 .main_content_img:hover{
     color: #051d35;
 }
-/*================== Sessão Ids ==================*/
 /*================== Header ==================*/
 #title {
     background-color: #051d35;
@@ -87,12 +85,57 @@ h2 {
 }
 /*================== Main carrosel ==================*/
 #testemunhas {
-    padding: 7%/*top e bottom*/ 15%/*left e right */;
+    padding: 7.6%/*top e bottom*/ 15%/*left e right */;
     background-color: #Ef8172;
     color: white;
 }
-#testemunhas h2 {
+.main_carrosel_text {
     font-family: "Montserrat-bold", sans-serif;
-    font-size: 1.7rem;
+    font-size: 2rem;
     line-height: 1.5;
+}
+#testemunhas img {
+    border-radius: 100%;
+    width: 10rem;
+    margin: 18px;
+}
+#colaboradores {
+    background-color: #Ef8172;
+    text-align: center;
+}
+#carouselExampleAutoplaying h3 {
+    font-weight: 300;
+    margin-top: 20px;
+}
+/*================== Main adoção ==================*/
+#main_adoção {
+    padding: 40px 17%;
+    background-color: white;
+}
+/*================== Main cta ==================*/
+#cta{
+    padding: 7% 17%;
+    background-color: #FB4C68;
+}
+@media (max-width: 900px) {
+    #cta h3 {
+        font-size: 22px;
+    }
+}
+#cta h3 {
+    color: white;
+}
+/*================== Footer ==================*/
+#footer{
+    padding: 5% 17%;
+}
+#footer p {
+    font-weight: 300;
+}
+#footer_icon {
+    color: #1E3050;
+}
+#footer_icon:hover {
+    color: #FF8787;
+    transform: scale(1.08);
 }

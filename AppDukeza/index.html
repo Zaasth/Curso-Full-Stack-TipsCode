@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dukeza</title>
+    <title>MeowGeneroso</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/img/icons/favicon (1).ico" type="image/x-icon">
 
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,13 +27,16 @@
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a id="header_menu" class="nav-link active" href="#">Home</a>
+                                <a id="header_menu" class="nav-link active" href="#title">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a id="header_menu" class="nav-link active" href="#">Produto</a>
+                                <a id="header_menu" class="nav-link active" href="#carousel_ongs">Ongs</a>
                             </li>
                             <li class="nav-item">
-                                <a id="header_menu" class="nav-link active" href="#">Sobre</a>
+                              <a id="header_menu" class="nav-link active" href="#main_adoção">Adotar</a>
+                          </li>
+                            <li class="nav-item">
+                                <a id="header_menu" class="nav-link active" href="#footer">Sobre</a>
                             </li>
                         </ul>
                     </div>
@@ -47,12 +51,16 @@
                     <h1 id="header_texto" class="fs-1">MeowGeneroso: Ajude os Miaus do Mundo - Doe para as ONGs de Gatinhos!</h1>
                     <br>
                     <br>
-                        <button type="button" class="btn btn-dark btn-lg">
+                        <a style="text-decoration: none;" href="https://apps.apple.com/us/app/feeders-pet-supply/id6448781464">
+                          <button type="button" class="btn btn-dark btn-lg">
                             <i class="fa-brands fa-apple fa-lg" style="color: #ffffff;"></i> Download
-                        </button>
-                        <button type="button" class="btn btn-outline-light btn-lg">
+                          </button>
+                        </a>
+                        <a style="text-decoration: none;" href="https://play.google.com/store/apps/details?id=com.feederspetsupply.feederspetsupply">
+                          <button style="color: white;" type="button" class="btn btn-outline-secondary btn-lg">
                             <i class="fa-brands fa-google-play fa-lg" style="color: #ffffff;"></i> Download
-                        </button>
+                          </button>
+                        </a>     
                   </div>
                   <div class="col-lg-6">
                     <img class="gatinho img-fluid" src="/img/imgbin_cats-png.png" alt="Gatinho">
@@ -68,86 +76,162 @@
                 <div class="row">
                     <div class="col-lg-4 main_content_grid">
                         <img class="main_content_img" src="/img/icons/check.svg" alt="Check">
-                        <h4>Fácil de usar!</h4>
-                        <p>Tão fácil que até seu <br> cachorro pode fazer isso.</p>
+                        <h4>Fácil de adotar!</h4>
+                        <p>Hoje em dia é tão fácil adotar que até seu <br> cachorro pode fazer isso.</p>
                     </div>
                     <div class="col-lg-4 main_content_grid">
                         <img class="main_content_img" src="/img/icons/alvo.svg" alt="Alvo">
-                        <h4>Os melhores gatos!</h4>
-                        <p>Temos os melhores gatinhos para <br> você!</p>
+                        <h4>Os melhores!</h4>
+                        <p>Você vai encontrar o melhor amigo para <br> você!</p>
                     </div>
                     <div class="col-lg-4 main_content_grid">
                         <img class="main_content_img" src="/img/icons/heart-solid.svg" alt="Coração">
-                        <h4>Os melhores gatos!</h4>
-                        <p>Temos os melhores gatinhos para <br> você!</p>
+                        <h4>Obrigado!</h4>
+                        <p>Você vai estar fazendo o bem <br> adotando!</p>
                     </div>
                 </div>
             </section>
             <!-- Fim Main_content1 -->
             <!-- Inicio Main_carrosel -->
-            <div style="padding: 0%;" class="container-fluid text-center">
-                <section id="testemunhas">
-                    <h2>Muito bom, o sistema é ótimo para adotar um gatinho.</h2>
-                    <img src="/img/Alisson.png" alt="Alisson">
-                    <em>Juazeiro, Ceára</em>
-                </section>
-            </div>
-            
+            <div id="carousel_ongs" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="hover">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div style="padding: 0%;" class="container-fluid text-center">
+                        <section id="testemunhas">
+                            <h2 class="main_carrosel_text">Sugestão de ONGs para apoiar!❤️</h2>
+                            <h3>Beco Da Esperança</h3>
+                            <a href="https://www.instagram.com/becodaesperanca/"><img class="img-fluid testemunhas-img" src="/img/ong1.jpg" alt="Beco esperança"></a><br>
+                            <em>📍Curitiba-PR</em>
+                        </section>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div style="padding: 0%;" class="container-fluid text-center">
+                        <section id="testemunhas">
+                            <h2 class="main_carrosel_text">Sugestão de ONGs para apoiar!❤️</h2>
+                            <h3>Casa Dos Gatos</h3>
+                            <a href="https://www.instagram.com/ongcasadosgatos/"><img class="img-fluid testemunhas-img" src="/img/ong2.jpg" alt="Casa dos gatos"></a><br>
+                            <em>📍Curitiba-PR</em>
+                        </section>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div style="padding: 0%;" class="container-fluid text-center">
+                        <section id="testemunhas">
+                            <h2 class="main_carrosel_text">Sugestão de ONGs para apoiar!❤️</h2>
+                            <h3>Miaumigos</h3>
+                            <a href="https://www.facebook.com/miaumigos"><img class="img-fluid testemunhas-img" src="/img/ong3.jpg" alt="miaumigos"></a><br>
+                            <em>📍Curitiba-PR</em>
+                        </section>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_ongs" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel_ongs" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>           
             <!-- Fim Main_carrosel -->
+             <!-- Inicio Main_adoções -->
+            <section id="main_adoção" class="text-center">
+              <div class="row row-cols-1 row-cols-md-3 g-5">
+                <div class="col-sm-6 col-lg-4">
+                  <div class="card h-100">
+                    <div class="card-header">
+                      <img style="border-radius: 100%;" src="/img/adoção/sem nome.jpg" class="img-fluid card-img-top" alt="Adotar gato">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Sem nome</h5>
+                      <details style="margin-top: 20px;">
+                        <summary>SAIBA MAIS</summary>
+                        <p class="card-text">Essa linda foi resgatada junto com mais 22 gatinhos no projeto na praia de Taquaras, e está ansiosa por um lar ♥️</p>
+                      </details>
+                      <br>
+                      <a href="https://www.instagram.com/p/C4K9RU2rNI9/"><button type="button" class="btn btn-outline-primary">Adotar</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                  <div class="card h-100">
+                    <div class="card-header">
+                      <img style="border-radius: 100%;" src="/img/adoção/estrela.jpg.png" class="img-fluid card-img-top" alt="Adotar gato">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Estrela</h5>
+                      <details style="margin-top: 20px;">
+                        <summary>SAIBA MAIS</summary>
+                        <p class="card-text">Oi galeraa, tudo maravilha? Aqui é a Estrela 🌟 feliz demais de me apresentar pra vocês 😍💖 Sou uma GATONA fofa demais! 🤗🤭 Tenho pelos pretos looongos 🥰 com mechas brancas na barriga e algumas no pescoço ☺️😻 tããão LINDA!!!</p>
+                      </details>
+                      <br>
+                      <a href="https://www.instagram.com/p/C4OP6XCv1VF/?img_index=1">
+                        <button type="button" class="btn btn-outline-primary">Adotar</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                  <div class="card h-100">
+                    <div class="card-header">
+                      <img style="border-radius: 100%;" src="/img/Gato-preto.png" class="img-fluid card-img-top" alt="Adotar gato">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Frajola</h5>
+                      <details style="margin-top: 20px;">
+                        <summary >SAIBA MAIS</summary>
+                        <p class="card-text">Nosso frajola está cada dia mais fofo, mais tranquilo. Circula bastante pela casa, gosta de ficar observando tudo que a tia faz! Ainda não se aproxima para ganhar petiscos, mas quando a tia leva até ele, aceita e come com gosto 🤭</p>
+                      </details>
+                      <br>
+                      <a href="https://www.instagram.com/p/C4LCuzwLm_t/">
+                        <button type="button" class="btn btn-outline-primary">Adotar</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Fim Main_adoções -->
+            <!-- Inicio Main_CallToAction -->
+            <section id="cta" class="text-center">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="row">
+                    <h3>A sua ajuda vai salvar muitas vidas inocentes! apoie os seguintes Apps abaixo.</h3>
+                  </div>
+                  <div style="margin-top: 2.5%;" class="col">
+                    <a style="text-decoration: none;" href="https://apps.apple.com/us/app/feeders-pet-supply/id6448781464">
+                      <button style="width: auto;" type="button" class="btn btn-dark"><i class="fa-brands fa-apple fa-lg" style="color: #ffffff;"></i> Download</button>
+                    </a>
+                    <a style="text-decoration: none;" href="https://play.google.com/store/apps/details?id=com.feederspetsupply.feederspetsupply">
+                      <button id="cta_btn_2" style="color: white;  width: auto; border: solid 1px white;" type="button" class="btn btn-outline-primary"><i class="fa-brands fa-google-play fa-lg" style="color: #ffffff;"></i>Download</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </section >
+          <!-- Fim Main_CallToAction -->
         </Main>
-        <!-- Fim Main -->       
-
-    <section id="colaboradores">
-        <img src="/img/1.png" alt="logo1">
-        <img src="/img/2.png" alt="logo2">
-        <img src="/img/3.png" alt="logo3">
-        <img src="/img/4.png" alt="logo4">
-    </section>
-
-    <section id="preços">
-        <h2>aaaaaaaaaaaaaaaaaaaaaaaaaa</h2>
-        <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-
-        <h3>aaaaaaaaaaaa</h3>
-        <h2>Grátis</h2>
-        <p>aaaaaaaaaaaaa</p>
-        <p>aaaaaaaaaaaa</p>
-        <p>aaaaaaaaaaaaaaaaaaaa</p>
-        <button type="button">Inscreva-se</button>
-
-        <h3>aaaaaaaaaaaa</h3>
-        <h2>R$ 50, 00 / mês</h2>
-        <p>aaaaaaaaaaaaa</p>
-        <p>aaaaaaaaaaaa</p>
-        <p>aaaaaaaaaaaaaaaaaaaa</p>
-        <button type="button">Inscreva-se</button>
-
-        <h3>aaaaaaaaaaaa</h3>
-        <h2>R$ 99, 00 / mês</h2>
-        <p>aaaaaaaaaaaaa</p>
-        <p>aaaaaaaaaaaa</p>
-        <p>aaaaaaaaaaaaaaaaaaaa</p>
-        <button type="button">Inscreva-se</button>
-    </section>
-
-    <section id="cta">
-
-        <h3>Faã agora mesmo o download</h3>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
-
-    </section>
-
-    <footer id="footer">
-        <p>©️ Copyright 2024 AppDukeza</p>
-    </footer>
-
-
-
-
-
-
-
+        <!-- Fim Main -->   
+        <!-- Inicio Footer -->    
+        <footer id="footer" class="container-fluid text-center">
+            <p>©️ Copyright 2024 MeowGeneroso</p>
+            <p>Site desenvolvidor por Wellinton Lucas</p>
+            <section id="icons" class="container-fluid">
+              <div class="row">
+                <picture class="col">
+                  <a href="https://www.linkedin.com/in/wellinton-lucas-177a93251/"><i id="footer_icon" class="fa-brands fa-linkedin fa-xl"></i></a>
+                  <a href="https://github.com/Zaasth"><i id="footer_icon" class="fa-brands fa-square-github fa-xl"></i></a>
+                  <a href="https://drive.google.com/file/d/1V2zDO-aKpQb9FtN6YmcfUZdCGfkAYJH6/view"><i id="footer_icon" class="fa-solid fa-globe fa-xl"></i></a>
+                </picture>
+              </div>
+            </section>
+        </footer>
+        <!-- Fim Footer --> 
+    <!-- BootStrap Js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
