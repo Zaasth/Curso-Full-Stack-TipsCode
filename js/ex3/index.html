@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        let UserInput = prompt("Digite um texto");
+        let Quant = 180;
+        let Letras = UserInput.length;
+
+        let Res = (Quant-Letras);
+
+        if(Res <= Quant && Res >= 0){
+            alert("Você ainda tem " + Res + " caracters restantes");
+        }
+        else{
+            alert("Você passou o limite de carcters permitidos");
+        }
+        
+    </script>
+</body>
+</html>
