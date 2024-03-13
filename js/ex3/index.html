@@ -13,14 +13,15 @@
         let UserInput = prompt("Digite um texto");
         let Quant = 180;
         let Letras = UserInput.length;
+        let Limite180 = UserInput.slice(0, 181);
 
         let Res = (Quant-Letras);
 
         if(Res <= Quant && Res >= 0){
-            alert("Você ainda tem " + Res + " caracters restantes");
+            alert( Limite180 + " Você ainda tem " + Res + " caracters restantes");
         }
         else{
-            alert("Você passou o limite de carcters permitidos");
+            alert( Limite180 + " Você passou o limite de carcters permitidos");
         }
         
     </script>
