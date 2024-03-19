@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+        IMC(80, 180);
+
+        function IMC(peso, altura){
+            altura = altura/100;
+            let ImcRes = Math.floor(peso/(altura*altura));
+
+            if(ImcRes < 18){
+                return alert("Seu IMC é "+ImcRes+",você está abaixo do peso.");
+            }
+            else if(ImcRes >= 18 && ImcRes < 24){
+                return alert("Seu IMC é "+ImcRes+",você está com o peso normal.");
+            }
+            else if(ImcRes >= 24 && ImcRes < 29){
+                return alert("Seu IMC é "+ImcRes+",você está com sobrepeso.");
+            }
+        }
+    </script>
+</body>
+</html>

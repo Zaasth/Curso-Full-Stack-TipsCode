@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        
+        GetPao(43)
+
+        function GetPao(dinheiro){
+            let CustoPao = 1.5;
+            MoveRobot();
+            console.log("Você gastou R$"+ dinheiro +" Para comprar "+ CalPao(dinheiro, CustoPao) +" pães.");
+            return Troco(dinheiro, CustoPao);
+        }
+
+        function CalPao(ValorDinheiro, ValorPao){
+            let paocomprado = Math.floor((ValorDinheiro / ValorPao));
+            return paocomprado;
+        }
+
+        function Troco(DinheiroInicial, CustoPorPao){
+            return console.log("Você tem R$" + DinheiroInicial % CustoPorPao + " de troco.");
+        }
+
+        function MoveRobot(){
+            console.log("Sai De Casa");
+            console.log("Move Direita");
+            console.log("Move Direita");
+            console.log("Move Cima");
+            console.log("Move Cima");
+            console.log("Move Cima");
+            console.log("Move Cima");
+            console.log("Compre pães");
+        }
+    </script>
+</body>
+</html>

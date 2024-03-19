@@ -9,13 +9,30 @@
     
 
     <script>
-        let UserName = prompt("Escreva seu nome");
-        let UserName1 = UserName.slice(0, 1).toUpperCase();
-        let UserName2 = UserName.slice(1,UserName.length+1).toLowerCase();
-        let Resultado = UserName1 + UserName2;
+        let numero1 = prompt("Digite o primeiro número:");
+        let numero2 = prompt("Digite o segundo número:");
+        let numero3 = prompt("Digite o terceiro número:");
+
+        calculo(parseInt(numero1), parseInt(numero2), parseInt(numero3));
+
+
+        function calculo(n1, n2, n3){
+            let res = (n1 + n2) + n3;
+            return alert("Soma destes 3 números é igual a: " + res);
+        }
+
+
+
+
+        function name() {
+            let UserName = prompt("Escreva seu nome");
+            let UserName1 = UserName.slice(0, 1).toUpperCase();
+            let UserName2 = UserName.slice(1,UserName.length+1).toLowerCase();
+            let Resultado = UserName1 + UserName2;
         
         
-        alert("Olá " + Resultado);
+            alert("Olá " + Resultado);
+        }
     </script>
 </body>
 </html>

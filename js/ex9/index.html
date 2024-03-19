@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+        Dado(100);
+        
+
+        function Dado(numero){
+            numero = (numero+1);
+            let numeroGerado = Math.floor(Math.random()* numero );
+            
+
+            if(numeroGerado <= 40){
+                return alert(numeroGerado + "%" + " Vocês dois combinam um pouco só");
+            }
+            else if(numeroGerado <= 70 && numeroGerado > 40){
+                return alert(numeroGerado + "%" + " Vocês dois já podem começar a namorar");
+            }
+            else if(numeroGerado <= 99 && numeroGerado > 70){
+                return alert(numeroGerado + "%" + " Vocês dois já podem se casar");
+            }
+            else if(numeroGerado <= 100 && numeroGerado > 99){
+                return alert(numeroGerado + "%" + " UAU, VOCÊS SÃO ALMAS GÊMEAS!!");
+            }
+        }
+    </script>
+</body>
+</html>

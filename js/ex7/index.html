@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+        idade(56);
+
+        function idade(UserInput){
+            let idadeMaxima = 90;
+            let dias = 365;
+            let semanas = 52;
+            let meses = 12;
+
+            let res = (idadeMaxima-UserInput);
+            let calDias = (res*dias)
+            let calSemanas = (res*semanas);
+            let calMeses = (res*meses);
+
+            console.log("Você vai viver ainda " + calDias + " dias, "+calSemanas + " semanas e "+calMeses+" meses."  )
+        }
+    </script>
+</body>
+</html>

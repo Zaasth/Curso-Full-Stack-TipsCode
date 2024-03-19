@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        let UserInputAltura = prompt("Nos informe a sua altura, exemplo: 1.80");
+        let UserInputPeso = prompt("Nos informe o seu peso, exemplo: 80");
+        IMC(UserInputAltura, UserInputPeso);
+        
+
+        function IMC(UserAltura, UserPeso){
+            UserAltura = (UserAltura/100);
+            let CalImc = UserPeso/(Math.pow(UserAltura, 2));
+            return alert("Seu Imc é "+Math.round(CalImc));
+            
+        }
+
+
+    </script>
+</body>
+</html>

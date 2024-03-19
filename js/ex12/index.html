@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+        
+        let UserInput = prompt("digite seu nome para ver se você está convidado");
+        ListaConvidados(UserInput);
+
+        function ListaConvidados(UserInput){
+            let nomes = ['Joao', 'Calors', 'Pedro', 'Andre', 'Wellinton'];
+            UserInput = ArrumarTextos(UserInput);
+            if(nomes.includes(UserInput) == true){
+                alert("Você está na lista de convidados, seja bem vindo " + UserInput + "!!");
+            } else {
+                alert("Você não está na lista de convidados");
+            }
+        }
+
+        function ArrumarTextos(texto){
+            UserInputUper = texto.slice(0 , 1).toUpperCase();
+            UserInputLower = texto.slice(1 , texto.length).toLowerCase();
+            texto = UserInputUper+UserInputLower;
+            return texto;
+        }
+    </script>
+</body>
+</html>
