@@ -1,0 +1,10 @@
+#header_menu {
+    color: black;
+}
+* {
+    text-transform: uppercase;
+    color: #0B5ED7;
+}
+main {
+    padding: 15% 17%;
+}
