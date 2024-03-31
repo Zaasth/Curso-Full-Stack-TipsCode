@@ -55,11 +55,23 @@ let HouseKeeper1 = {
     Age: 34,
     Active: true,
     Paymement: 3.000,
-    Jobs: ["Limpar a casa", "Passar roupa", "Passear com os cachorros", "Fazer comida"]
+    Jobs: ["Limpar a casa", "Passar roupa", "Passear com os cachorros", "Fazer comida"],
+    Limpando: function(){
+        alert(this.Name+" Esta limpando a casa");
+    }
 }
-let HouseKeeper2 = {}
-HouseKeeper2.Name = "Graziela";
 
-
+let HouseKeeper2 = {
+    Name: "Grazi",
+    Age: 34,
+    Active: true,
+    Paymement: 3.000,
+    Jobs: ["Limpar a casa", "Passar roupa", "Passear com os cachorros", "Fazer comida"],
+    Limpando: function(){
+        alert(this.Name+" Esta limpando a casa");
+    }
+}
+HouseKeeper2.Limpando();
+HouseKeeper1.Limpando();
 console.log(HouseKeeper1.Jobs);
 console.log(HouseKeeper2.Name);

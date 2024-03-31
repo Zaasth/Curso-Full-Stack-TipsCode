@@ -16,7 +16,7 @@ function TocarAudio(){
     let audioswitch = document.getElementsByClassName("audio");
     
     window.addEventListener("keyup", function(e){
-
+        console.log(e);
         e.preventDefault();
         switch(e.code){
             case "KeyW":
@@ -78,22 +78,4 @@ function TocarAudio(){
 
     });
 
-}
-
-console.log(calculator(10, 30, sub));
-
-function soma(n1, n2){
-    return n1+n2;
-}
-function multi(n1, n2){
-    return n1*n2;
-}
-function sub(n1, n2){
-    return n1-n2;
-}
-function div(n1, n2){
-    return n1/n2;
-}
-function calculator(n1, n2, operador){
-    return operador(n1, n2);
 }
