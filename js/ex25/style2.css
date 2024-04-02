@@ -1,0 +1,20 @@
+.b1 {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+.b2 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(30, 255, 0);
+}
+.b3 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(115, 0, 255);
+}
+section {
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+}
