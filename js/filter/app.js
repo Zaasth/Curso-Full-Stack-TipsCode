@@ -22,10 +22,14 @@ const precinho = function(e){
 const Idzin = function(e){
     return e.id;
 }
-let filtrar = 4;
-const filtrin = product2.filter(function(e){
-    return e.id == filtrar;
-})
+
+const FiltrarPreço = function(e){
+    return e.price > 700;
+}
+const FiltrarFragil = function(e){
+    return e.fragile == true;
+}
+
 console.log(filtrin); // Retorna [ { id: 2, name: 'Monitor LCD', price: 1999, fragile: true } ]
 
 for (let index = 0; index < product.length; index++) {
