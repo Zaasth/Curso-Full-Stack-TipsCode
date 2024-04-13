@@ -1,3 +1,12 @@
+Array.prototype.NomeDaFunção = function(callback){
+    const NewArray = [];
+    for (let i = 0; i < this.length; i++) {
+        NewArray.push(callback(this[i], i, this));
+    }
+    return NewArray;
+}
+
+
 const JsonTest = [
     {"name": "Iphone", "price": 5.894},
     { "name": "Carderno", "price": 13.90 },
@@ -21,6 +30,7 @@ const JsonTest2 = [
     '{ "name": "Carderno", "price": 13.90 }',
     '{ "name": "Biblia", "price": 120.00 }',
     '{ "name": "Caneta", "price": 7.50 }',
+    
 ]
 
 const ForObject = function(json){
