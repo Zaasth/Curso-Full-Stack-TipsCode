@@ -1,17 +1,34 @@
-function i(n, num=0){
-    if(num <= n){
-        if(num % 1000000 == 0){
-            console.log(num);
-        }
-        i(n, num+1);
-    }
+
+function test1(){
+    return this == globalThis;
+}
+function test2(){
+    let users = [1, 2, 3, 4, 5];
+    console.log(this);
+}
+console.log(test2());
+
+
+
+const Func = (e) => {
+    console.log(e + 10); //Retorna 20
+}
+Func(10);
+
+const User = function(name, age, married) {
+    this.name = name;
+    this.age = age;
+    this.married = married;
 }
 
-i(1000000);
+let Users = [new User("Wellinton", 21, false), new User("João", 61, true)]
+console.log(Users);
 
-const n = 0;
-if(n > 10){
-    return console.log("Seu número é maior que 10")
-} else if(n > 20){
-    
+const MapAge = (e) =>{
+    return `A idade de ${e.name} é ` + e.age + " anos.";
 }
+const FilterAge = (e) =>{
+    return e.age > 30;
+}
+
+console.log(Users.filter(FilterAge).map(MapAge)); //[ 'A idade de João é 61 anos.' ]
