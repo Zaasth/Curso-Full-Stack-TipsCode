@@ -12,7 +12,7 @@ function Car(model, year, owner) {
 
             if(count == 100){
                 clearTimeout(Run);
-                console.log(`Parabéns ${this.owner}, seu ${this.model} chegou a 100km/h em ${100000 / 1000} segundos!!`)
+                console.log(`Parabéns ${this.owner}, seu ${this.model} chegou a 100km/h!!`)
             }
         }, Speed1);
     };
