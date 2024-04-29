@@ -13,5 +13,4 @@ Hi = (name) => {
     return `Olá ${name}`;
 }
 console.log(Hi("Wellinton")); //Retorna Olá Wellinton
-
-glysns.gitbook.io/java basico/
+ 
